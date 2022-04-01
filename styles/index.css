@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,700;1,500&family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px 40px 120px;    
+}
+
+header a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 18px;    
+    margin-left: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;    
+}
+header a:hover {
+    color: #c76865;
+}
+
+header a:nth-child(4) {
+    background: #d95654;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+header a:nth-child(4):hover {
+    background: none;
+    border: 1px solid #d95654;
+    color: #d95654;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+}
